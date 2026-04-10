@@ -1,0 +1,58 @@
+<!-- 
+ Author: Andrew Jefferson E. Buena
+date: 2024-06-01
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>grapesjs</title>
+  <link rel="stylesheet" href="vendor/grapesjs/css/grapes.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="panel__top">
+  <div class="panel__devices"></div>
+  <div class="panel__basic-actions"></div>
+</div>
+
+<div class="main-content">
+  <div class="panel__left">
+    <div class="panel__device-holder"></div>
+    <div class="panel__blocks-holder"></div>
+  </div>
+  <div id="gjs"></div>
+
+  <div class="panel__right">
+    <div class="page-manager-panel" id="page-manager">
+      <div class="page-manager-controls">
+        <select id="page-selector" class="page-selector"></select>
+        <button type="button" id="add-page-btn" class="page-btn">+ Page</button>
+        <button type="button" id="rename-page-btn" class="page-btn">✎ Rename</button>
+        <button type="button" id="duplicate-page-btn" class="page-btn">⧉ Dup</button>
+        <button type="button" id="remove-page-btn" class="page-btn">- Page</button>
+      </div>
+      <div class="page-previews" id="page-previews"></div>
+    </div>
+
+    <div class="sidebar-tabs">
+      <div class="tab active" onclick="switchTab(event,'styles')">Styles</div>
+      <div class="tab" onclick="switchTab(event,'traits')">Settings</div>
+      <div class="tab" onclick="switchTab(event,'layers')">Layers</div>
+    </div>
+
+    <div id="styles-container" class="manager-container"></div>
+    <div id="traits-container" class="manager-container hidden"></div>
+    <div id="layers-container" class="manager-container hidden"></div>
+  </div>
+</div>
+
+<script src="vendor/grapesjs/grapes.min.js"></script>
+<script src="vendor/grapesjs-preset-webpage/grapesjs-preset-webpage.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

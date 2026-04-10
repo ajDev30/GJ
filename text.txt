@@ -1,0 +1,1135 @@
+.
+├── bak2
+├── index.html
+├── node_modules
+│   ├── @types
+│   │   ├── backbone
+│   │   │   ├── LICENSE
+│   │   │   ├── README.md
+│   │   │   ├── index.d.ts
+│   │   │   └── package.json
+│   │   ├── jquery
+│   │   │   ├── JQuery.d.ts
+│   │   │   ├── JQueryStatic.d.ts
+│   │   │   ├── LICENSE
+│   │   │   ├── README.md
+│   │   │   ├── factory-slim.d.mts
+│   │   │   ├── factory-slim.d.ts
+│   │   │   ├── factory.d.mts
+│   │   │   ├── factory.d.ts
+│   │   │   ├── index.d.mts
+│   │   │   ├── index.d.ts
+│   │   │   ├── legacy.d.ts
+│   │   │   ├── misc.d.ts
+│   │   │   ├── package.json
+│   │   │   ├── slim.d.mts
+│   │   │   └── slim.d.ts
+│   │   └── underscore
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── index.d.mts
+│   │       ├── index.d.ts
+│   │       └── package.json
+│   ├── backbone
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── backbone-min.js
+│   │   ├── backbone-min.js.map
+│   │   ├── backbone-min.map
+│   │   ├── backbone.js
+│   │   └── package.json
+│   ├── backbone-undo
+│   │   ├── Backbone.Undo.js
+│   │   ├── README.md
+│   │   ├── bower.json
+│   │   └── package.json
+│   ├── codemirror
+│   │   ├── AUTHORS
+│   │   ├── CHANGELOG.md
+│   │   ├── CONTRIBUTING.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── addon
+│   │   │   ├── comment
+│   │   │   │   ├── comment.js
+│   │   │   │   └── continuecomment.js
+│   │   │   ├── dialog
+│   │   │   │   ├── dialog.css
+│   │   │   │   └── dialog.js
+│   │   │   ├── display
+│   │   │   │   ├── autorefresh.js
+│   │   │   │   ├── fullscreen.css
+│   │   │   │   ├── fullscreen.js
+│   │   │   │   ├── panel.js
+│   │   │   │   ├── placeholder.js
+│   │   │   │   └── rulers.js
+│   │   │   ├── edit
+│   │   │   │   ├── closebrackets.js
+│   │   │   │   ├── closetag.js
+│   │   │   │   ├── continuelist.js
+│   │   │   │   ├── matchbrackets.js
+│   │   │   │   ├── matchtags.js
+│   │   │   │   └── trailingspace.js
+│   │   │   ├── fold
+│   │   │   │   ├── brace-fold.js
+│   │   │   │   ├── comment-fold.js
+│   │   │   │   ├── foldcode.js
+│   │   │   │   ├── foldgutter.css
+│   │   │   │   ├── foldgutter.js
+│   │   │   │   ├── indent-fold.js
+│   │   │   │   ├── markdown-fold.js
+│   │   │   │   └── xml-fold.js
+│   │   │   ├── hint
+│   │   │   │   ├── anyword-hint.js
+│   │   │   │   ├── css-hint.js
+│   │   │   │   ├── html-hint.js
+│   │   │   │   ├── javascript-hint.js
+│   │   │   │   ├── show-hint.css
+│   │   │   │   ├── show-hint.js
+│   │   │   │   ├── sql-hint.js
+│   │   │   │   └── xml-hint.js
+│   │   │   ├── lint
+│   │   │   │   ├── coffeescript-lint.js
+│   │   │   │   ├── css-lint.js
+│   │   │   │   ├── html-lint.js
+│   │   │   │   ├── javascript-lint.js
+│   │   │   │   ├── json-lint.js
+│   │   │   │   ├── lint.css
+│   │   │   │   ├── lint.js
+│   │   │   │   └── yaml-lint.js
+│   │   │   ├── merge
+│   │   │   │   ├── merge.css
+│   │   │   │   └── merge.js
+│   │   │   ├── mode
+│   │   │   │   ├── loadmode.js
+│   │   │   │   ├── multiplex.js
+│   │   │   │   ├── multiplex_test.js
+│   │   │   │   ├── overlay.js
+│   │   │   │   └── simple.js
+│   │   │   ├── runmode
+│   │   │   │   ├── colorize.js
+│   │   │   │   ├── runmode-standalone.js
+│   │   │   │   ├── runmode.js
+│   │   │   │   └── runmode.node.js
+│   │   │   ├── scroll
+│   │   │   │   ├── annotatescrollbar.js
+│   │   │   │   ├── scrollpastend.js
+│   │   │   │   ├── simplescrollbars.css
+│   │   │   │   └── simplescrollbars.js
+│   │   │   ├── search
+│   │   │   │   ├── jump-to-line.js
+│   │   │   │   ├── match-highlighter.js
+│   │   │   │   ├── matchesonscrollbar.css
+│   │   │   │   ├── matchesonscrollbar.js
+│   │   │   │   ├── search.js
+│   │   │   │   └── searchcursor.js
+│   │   │   ├── selection
+│   │   │   │   ├── active-line.js
+│   │   │   │   ├── mark-selection.js
+│   │   │   │   └── selection-pointer.js
+│   │   │   ├── tern
+│   │   │   │   ├── tern.css
+│   │   │   │   ├── tern.js
+│   │   │   │   └── worker.js
+│   │   │   └── wrap
+│   │   │       └── hardwrap.js
+│   │   ├── bin
+│   │   │   └── source-highlight
+│   │   ├── changes
+│   │   ├── keymap
+│   │   │   ├── emacs.js
+│   │   │   ├── sublime.js
+│   │   │   └── vim.js
+│   │   ├── lib
+│   │   │   ├── codemirror.css
+│   │   │   └── codemirror.js
+│   │   ├── mode
+│   │   │   ├── apl
+│   │   │   │   └── apl.js
+│   │   │   ├── asciiarmor
+│   │   │   │   └── asciiarmor.js
+│   │   │   ├── asn.1
+│   │   │   │   └── asn.1.js
+│   │   │   ├── asterisk
+│   │   │   │   └── asterisk.js
+│   │   │   ├── brainfuck
+│   │   │   │   └── brainfuck.js
+│   │   │   ├── clike
+│   │   │   │   └── clike.js
+│   │   │   ├── clojure
+│   │   │   │   └── clojure.js
+│   │   │   ├── cmake
+│   │   │   │   └── cmake.js
+│   │   │   ├── cobol
+│   │   │   │   └── cobol.js
+│   │   │   ├── coffeescript
+│   │   │   │   └── coffeescript.js
+│   │   │   ├── commonlisp
+│   │   │   │   └── commonlisp.js
+│   │   │   ├── crystal
+│   │   │   │   └── crystal.js
+│   │   │   ├── css
+│   │   │   │   └── css.js
+│   │   │   ├── cypher
+│   │   │   │   └── cypher.js
+│   │   │   ├── d
+│   │   │   │   └── d.js
+│   │   │   ├── dart
+│   │   │   │   └── dart.js
+│   │   │   ├── diff
+│   │   │   │   └── diff.js
+│   │   │   ├── django
+│   │   │   │   └── django.js
+│   │   │   ├── dockerfile
+│   │   │   │   └── dockerfile.js
+│   │   │   ├── dtd
+│   │   │   │   └── dtd.js
+│   │   │   ├── dylan
+│   │   │   │   └── dylan.js
+│   │   │   ├── ebnf
+│   │   │   │   └── ebnf.js
+│   │   │   ├── ecl
+│   │   │   │   └── ecl.js
+│   │   │   ├── eiffel
+│   │   │   │   └── eiffel.js
+│   │   │   ├── elm
+│   │   │   │   └── elm.js
+│   │   │   ├── erlang
+│   │   │   │   └── erlang.js
+│   │   │   ├── factor
+│   │   │   │   └── factor.js
+│   │   │   ├── fcl
+│   │   │   │   └── fcl.js
+│   │   │   ├── forth
+│   │   │   │   └── forth.js
+│   │   │   ├── fortran
+│   │   │   │   └── fortran.js
+│   │   │   ├── gas
+│   │   │   │   └── gas.js
+│   │   │   ├── gfm
+│   │   │   │   └── gfm.js
+│   │   │   ├── gherkin
+│   │   │   │   └── gherkin.js
+│   │   │   ├── go
+│   │   │   │   └── go.js
+│   │   │   ├── groovy
+│   │   │   │   └── groovy.js
+│   │   │   ├── haml
+│   │   │   │   └── haml.js
+│   │   │   ├── handlebars
+│   │   │   │   └── handlebars.js
+│   │   │   ├── haskell
+│   │   │   │   └── haskell.js
+│   │   │   ├── haskell-literate
+│   │   │   │   └── haskell-literate.js
+│   │   │   ├── haxe
+│   │   │   │   └── haxe.js
+│   │   │   ├── htmlembedded
+│   │   │   │   └── htmlembedded.js
+│   │   │   ├── htmlmixed
+│   │   │   │   └── htmlmixed.js
+│   │   │   ├── http
+│   │   │   │   └── http.js
+│   │   │   ├── idl
+│   │   │   │   └── idl.js
+│   │   │   ├── javascript
+│   │   │   │   └── javascript.js
+│   │   │   ├── jinja2
+│   │   │   │   └── jinja2.js
+│   │   │   ├── jsx
+│   │   │   │   └── jsx.js
+│   │   │   ├── julia
+│   │   │   │   └── julia.js
+│   │   │   ├── livescript
+│   │   │   │   └── livescript.js
+│   │   │   ├── lua
+│   │   │   │   └── lua.js
+│   │   │   ├── markdown
+│   │   │   │   └── markdown.js
+│   │   │   ├── mathematica
+│   │   │   │   └── mathematica.js
+│   │   │   ├── mbox
+│   │   │   │   └── mbox.js
+│   │   │   ├── meta.js
+│   │   │   ├── mirc
+│   │   │   │   └── mirc.js
+│   │   │   ├── mllike
+│   │   │   │   └── mllike.js
+│   │   │   ├── modelica
+│   │   │   │   └── modelica.js
+│   │   │   ├── mscgen
+│   │   │   │   └── mscgen.js
+│   │   │   ├── mumps
+│   │   │   │   └── mumps.js
+│   │   │   ├── nginx
+│   │   │   │   └── nginx.js
+│   │   │   ├── nsis
+│   │   │   │   └── nsis.js
+│   │   │   ├── ntriples
+│   │   │   │   └── ntriples.js
+│   │   │   ├── octave
+│   │   │   │   └── octave.js
+│   │   │   ├── oz
+│   │   │   │   └── oz.js
+│   │   │   ├── pascal
+│   │   │   │   └── pascal.js
+│   │   │   ├── pegjs
+│   │   │   │   └── pegjs.js
+│   │   │   ├── perl
+│   │   │   │   └── perl.js
+│   │   │   ├── php
+│   │   │   │   └── php.js
+│   │   │   ├── pig
+│   │   │   │   └── pig.js
+│   │   │   ├── powershell
+│   │   │   │   └── powershell.js
+│   │   │   ├── properties
+│   │   │   │   └── properties.js
+│   │   │   ├── protobuf
+│   │   │   │   └── protobuf.js
+│   │   │   ├── pug
+│   │   │   │   └── pug.js
+│   │   │   ├── puppet
+│   │   │   │   └── puppet.js
+│   │   │   ├── python
+│   │   │   │   └── python.js
+│   │   │   ├── q
+│   │   │   │   └── q.js
+│   │   │   ├── r
+│   │   │   │   └── r.js
+│   │   │   ├── rpm
+│   │   │   │   ├── changes
+│   │   │   │   │   └── index.html
+│   │   │   │   └── rpm.js
+│   │   │   ├── rst
+│   │   │   │   └── rst.js
+│   │   │   ├── ruby
+│   │   │   │   └── ruby.js
+│   │   │   ├── rust
+│   │   │   │   └── rust.js
+│   │   │   ├── sas
+│   │   │   │   └── sas.js
+│   │   │   ├── sass
+│   │   │   │   └── sass.js
+│   │   │   ├── scheme
+│   │   │   │   └── scheme.js
+│   │   │   ├── shell
+│   │   │   │   └── shell.js
+│   │   │   ├── sieve
+│   │   │   │   └── sieve.js
+│   │   │   ├── slim
+│   │   │   │   └── slim.js
+│   │   │   ├── smalltalk
+│   │   │   │   └── smalltalk.js
+│   │   │   ├── smarty
+│   │   │   │   └── smarty.js
+│   │   │   ├── solr
+│   │   │   │   └── solr.js
+│   │   │   ├── soy
+│   │   │   │   └── soy.js
+│   │   │   ├── sparql
+│   │   │   │   └── sparql.js
+│   │   │   ├── spreadsheet
+│   │   │   │   └── spreadsheet.js
+│   │   │   ├── sql
+│   │   │   │   └── sql.js
+│   │   │   ├── stex
+│   │   │   │   └── stex.js
+│   │   │   ├── stylus
+│   │   │   │   └── stylus.js
+│   │   │   ├── swift
+│   │   │   │   └── swift.js
+│   │   │   ├── tcl
+│   │   │   │   └── tcl.js
+│   │   │   ├── textile
+│   │   │   │   └── textile.js
+│   │   │   ├── tiddlywiki
+│   │   │   │   ├── tiddlywiki.css
+│   │   │   │   └── tiddlywiki.js
+│   │   │   ├── tiki
+│   │   │   │   ├── tiki.css
+│   │   │   │   └── tiki.js
+│   │   │   ├── toml
+│   │   │   │   └── toml.js
+│   │   │   ├── tornado
+│   │   │   │   └── tornado.js
+│   │   │   ├── troff
+│   │   │   │   └── troff.js
+│   │   │   ├── ttcn
+│   │   │   │   └── ttcn.js
+│   │   │   ├── ttcn-cfg
+│   │   │   │   └── ttcn-cfg.js
+│   │   │   ├── turtle
+│   │   │   │   └── turtle.js
+│   │   │   ├── twig
+│   │   │   │   └── twig.js
+│   │   │   ├── vb
+│   │   │   │   └── vb.js
+│   │   │   ├── vbscript
+│   │   │   │   └── vbscript.js
+│   │   │   ├── velocity
+│   │   │   │   └── velocity.js
+│   │   │   ├── verilog
+│   │   │   │   └── verilog.js
+│   │   │   ├── vhdl
+│   │   │   │   └── vhdl.js
+│   │   │   ├── vue
+│   │   │   │   └── vue.js
+│   │   │   ├── wast
+│   │   │   │   └── wast.js
+│   │   │   ├── webidl
+│   │   │   │   └── webidl.js
+│   │   │   ├── xml
+│   │   │   │   └── xml.js
+│   │   │   ├── xquery
+│   │   │   │   └── xquery.js
+│   │   │   ├── yacas
+│   │   │   │   └── yacas.js
+│   │   │   ├── yaml
+│   │   │   │   └── yaml.js
+│   │   │   ├── yaml-frontmatter
+│   │   │   │   └── yaml-frontmatter.js
+│   │   │   └── z80
+│   │   │       └── z80.js
+│   │   ├── package.json
+│   │   ├── rollup.config.js
+│   │   ├── src
+│   │   │   ├── addon
+│   │   │   │   └── runmode
+│   │   │   │       ├── codemirror-standalone.js
+│   │   │   │       ├── codemirror.node.js
+│   │   │   │       ├── runmode-standalone.js
+│   │   │   │       └── runmode.node.js
+│   │   │   ├── codemirror.js
+│   │   │   ├── display
+│   │   │   │   ├── Display.js
+│   │   │   │   ├── focus.js
+│   │   │   │   ├── gutters.js
+│   │   │   │   ├── highlight_worker.js
+│   │   │   │   ├── line_numbers.js
+│   │   │   │   ├── mode_state.js
+│   │   │   │   ├── operations.js
+│   │   │   │   ├── scroll_events.js
+│   │   │   │   ├── scrollbars.js
+│   │   │   │   ├── scrolling.js
+│   │   │   │   ├── selection.js
+│   │   │   │   ├── update_display.js
+│   │   │   │   ├── update_line.js
+│   │   │   │   ├── update_lines.js
+│   │   │   │   └── view_tracking.js
+│   │   │   ├── edit
+│   │   │   │   ├── CodeMirror.js
+│   │   │   │   ├── commands.js
+│   │   │   │   ├── deleteNearSelection.js
+│   │   │   │   ├── drop_events.js
+│   │   │   │   ├── fromTextArea.js
+│   │   │   │   ├── global_events.js
+│   │   │   │   ├── key_events.js
+│   │   │   │   ├── legacy.js
+│   │   │   │   ├── main.js
+│   │   │   │   ├── methods.js
+│   │   │   │   ├── mouse_events.js
+│   │   │   │   ├── options.js
+│   │   │   │   └── utils.js
+│   │   │   ├── input
+│   │   │   │   ├── ContentEditableInput.js
+│   │   │   │   ├── TextareaInput.js
+│   │   │   │   ├── indent.js
+│   │   │   │   ├── input.js
+│   │   │   │   ├── keymap.js
+│   │   │   │   ├── keynames.js
+│   │   │   │   └── movement.js
+│   │   │   ├── line
+│   │   │   │   ├── highlight.js
+│   │   │   │   ├── line_data.js
+│   │   │   │   ├── pos.js
+│   │   │   │   ├── saw_special_spans.js
+│   │   │   │   ├── spans.js
+│   │   │   │   └── utils_line.js
+│   │   │   ├── measurement
+│   │   │   │   ├── position_measurement.js
+│   │   │   │   └── widgets.js
+│   │   │   ├── model
+│   │   │   │   ├── Doc.js
+│   │   │   │   ├── change_measurement.js
+│   │   │   │   ├── changes.js
+│   │   │   │   ├── chunk.js
+│   │   │   │   ├── document_data.js
+│   │   │   │   ├── history.js
+│   │   │   │   ├── line_widget.js
+│   │   │   │   ├── mark_text.js
+│   │   │   │   ├── selection.js
+│   │   │   │   └── selection_updates.js
+│   │   │   ├── modes.js
+│   │   │   └── util
+│   │   │       ├── StringStream.js
+│   │   │       ├── bidi.js
+│   │   │       ├── browser.js
+│   │   │       ├── dom.js
+│   │   │       ├── event.js
+│   │   │       ├── feature_detection.js
+│   │   │       ├── misc.js
+│   │   │       └── operation_group.js
+│   │   └── theme
+│   │       ├── 3024-day.css
+│   │       ├── 3024-night.css
+│   │       ├── abbott.css
+│   │       ├── abcdef.css
+│   │       ├── ambiance-mobile.css
+│   │       ├── ambiance.css
+│   │       ├── ayu-dark.css
+│   │       ├── ayu-mirage.css
+│   │       ├── base16-dark.css
+│   │       ├── base16-light.css
+│   │       ├── bespin.css
+│   │       ├── blackboard.css
+│   │       ├── cobalt.css
+│   │       ├── colorforth.css
+│   │       ├── darcula.css
+│   │       ├── dracula.css
+│   │       ├── duotone-dark.css
+│   │       ├── duotone-light.css
+│   │       ├── eclipse.css
+│   │       ├── elegant.css
+│   │       ├── erlang-dark.css
+│   │       ├── gruvbox-dark.css
+│   │       ├── hopscotch.css
+│   │       ├── icecoder.css
+│   │       ├── idea.css
+│   │       ├── isotope.css
+│   │       ├── juejin.css
+│   │       ├── lesser-dark.css
+│   │       ├── liquibyte.css
+│   │       ├── lucario.css
+│   │       ├── material-darker.css
+│   │       ├── material-ocean.css
+│   │       ├── material-palenight.css
+│   │       ├── material.css
+│   │       ├── mbo.css
+│   │       ├── mdn-like.css
+│   │       ├── midnight.css
+│   │       ├── monokai.css
+│   │       ├── moxer.css
+│   │       ├── neat.css
+│   │       ├── neo.css
+│   │       ├── night.css
+│   │       ├── nord.css
+│   │       ├── oceanic-next.css
+│   │       ├── panda-syntax.css
+│   │       ├── paraiso-dark.css
+│   │       ├── paraiso-light.css
+│   │       ├── pastel-on-dark.css
+│   │       ├── railscasts.css
+│   │       ├── rubyblue.css
+│   │       ├── seti.css
+│   │       ├── shadowfox.css
+│   │       ├── solarized.css
+│   │       ├── ssms.css
+│   │       ├── the-matrix.css
+│   │       ├── tomorrow-night-bright.css
+│   │       ├── tomorrow-night-eighties.css
+│   │       ├── ttcn.css
+│   │       ├── twilight.css
+│   │       ├── vibrant-ink.css
+│   │       ├── xq-dark.css
+│   │       ├── xq-light.css
+│   │       ├── yeti.css
+│   │       ├── yonce.css
+│   │       └── zenburn.css
+│   ├── codemirror-formatting
+│   │   ├── README.md
+│   │   ├── bower.json
+│   │   ├── formatting.js
+│   │   └── package.json
+│   ├── grapesjs
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── dist
+│   │   │   ├── css
+│   │   │   │   └── grapes.min.css
+│   │   │   ├── grapes.min.js
+│   │   │   ├── grapes.min.js.map
+│   │   │   ├── grapes.mjs
+│   │   │   ├── grapes.mjs.map
+│   │   │   └── index.d.ts
+│   │   ├── locale
+│   │   │   ├── ar.js
+│   │   │   ├── bs.js
+│   │   │   ├── ca.js
+│   │   │   ├── de.js
+│   │   │   ├── el.js
+│   │   │   ├── en.js
+│   │   │   ├── es.js
+│   │   │   ├── fa.js
+│   │   │   ├── fr.js
+│   │   │   ├── he.js
+│   │   │   ├── id.js
+│   │   │   ├── index.js
+│   │   │   ├── it.js
+│   │   │   ├── ko.js
+│   │   │   ├── nb.js
+│   │   │   ├── nl.js
+│   │   │   ├── pl.js
+│   │   │   ├── pt.js
+│   │   │   ├── ru.js
+│   │   │   ├── se.js
+│   │   │   ├── tr.js
+│   │   │   ├── vi.js
+│   │   │   └── zh.js
+│   │   ├── package.json
+│   │   └── src
+│   │       └── styles
+│   │           └── scss
+│   │               ├── _gjs_assets.scss
+│   │               ├── _gjs_blocks.scss
+│   │               ├── _gjs_canvas.scss
+│   │               ├── _gjs_devices.scss
+│   │               ├── _gjs_inputs.scss
+│   │               ├── _gjs_layers.scss
+│   │               ├── _gjs_modal.scss
+│   │               ├── _gjs_panels.scss
+│   │               ├── _gjs_rte.scss
+│   │               ├── _gjs_selectors.scss
+│   │               ├── _gjs_status.scss
+│   │               ├── _gjs_style_manager.scss
+│   │               ├── _gjs_traits.scss
+│   │               ├── _gjs_variables.scss
+│   │               ├── main.scss
+│   │               └── spectrum.scss
+│   ├── grapesjs-preset-webpage
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── dist
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   └── index.js.map
+│   │   └── package.json
+│   ├── promise-polyfill
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── dist
+│   │   │   ├── polyfill.js
+│   │   │   └── polyfill.min.js
+│   │   ├── lib
+│   │   │   ├── index.js
+│   │   │   └── polyfill.js
+│   │   ├── package.json
+│   │   └── src
+│   │       ├── allSettled.js
+│   │       ├── any.js
+│   │       ├── finally.js
+│   │       ├── index.js
+│   │       └── polyfill.js
+│   └── underscore
+│       ├── LICENSE
+│       ├── README.md
+│       ├── amd
+│       │   ├── _baseCreate.js
+│       │   ├── _baseIteratee.js
+│       │   ├── _cb.js
+│       │   ├── _chainResult.js
+│       │   ├── _collectNonEnumProps.js
+│       │   ├── _createAssigner.js
+│       │   ├── _createEscaper.js
+│       │   ├── _createIndexFinder.js
+│       │   ├── _createPredicateIndexFinder.js
+│       │   ├── _createReduce.js
+│       │   ├── _createSizePropertyCheck.js
+│       │   ├── _deepGet.js
+│       │   ├── _escapeMap.js
+│       │   ├── _executeBound.js
+│       │   ├── _flatten.js
+│       │   ├── _getByteLength.js
+│       │   ├── _getLength.js
+│       │   ├── _group.js
+│       │   ├── _has.js
+│       │   ├── _hasObjectTag.js
+│       │   ├── _isArrayLike.js
+│       │   ├── _isBufferLike.js
+│       │   ├── _keyInObj.js
+│       │   ├── _methodFingerprint.js
+│       │   ├── _optimizeCb.js
+│       │   ├── _setup.js
+│       │   ├── _shallowProperty.js
+│       │   ├── _stringTagBug.js
+│       │   ├── _tagTester.js
+│       │   ├── _toBufferView.js
+│       │   ├── _toPath.js
+│       │   ├── _unescapeMap.js
+│       │   ├── after.js
+│       │   ├── allKeys.js
+│       │   ├── before.js
+│       │   ├── bind.js
+│       │   ├── bindAll.js
+│       │   ├── chain.js
+│       │   ├── chunk.js
+│       │   ├── clone.js
+│       │   ├── compact.js
+│       │   ├── compose.js
+│       │   ├── constant.js
+│       │   ├── contains.js
+│       │   ├── countBy.js
+│       │   ├── create.js
+│       │   ├── debounce.js
+│       │   ├── defaults.js
+│       │   ├── defer.js
+│       │   ├── delay.js
+│       │   ├── difference.js
+│       │   ├── each.js
+│       │   ├── escape.js
+│       │   ├── every.js
+│       │   ├── extend.js
+│       │   ├── extendOwn.js
+│       │   ├── filter.js
+│       │   ├── find.js
+│       │   ├── findIndex.js
+│       │   ├── findKey.js
+│       │   ├── findLastIndex.js
+│       │   ├── findWhere.js
+│       │   ├── first.js
+│       │   ├── flatten.js
+│       │   ├── functions.js
+│       │   ├── get.js
+│       │   ├── groupBy.js
+│       │   ├── has.js
+│       │   ├── identity.js
+│       │   ├── index-default.js
+│       │   ├── index.js
+│       │   ├── indexBy.js
+│       │   ├── indexOf.js
+│       │   ├── initial.js
+│       │   ├── intersection.js
+│       │   ├── invert.js
+│       │   ├── invoke.js
+│       │   ├── isArguments.js
+│       │   ├── isArray.js
+│       │   ├── isArrayBuffer.js
+│       │   ├── isBoolean.js
+│       │   ├── isDataView.js
+│       │   ├── isDate.js
+│       │   ├── isElement.js
+│       │   ├── isEmpty.js
+│       │   ├── isEqual.js
+│       │   ├── isError.js
+│       │   ├── isFinite.js
+│       │   ├── isFunction.js
+│       │   ├── isMap.js
+│       │   ├── isMatch.js
+│       │   ├── isNaN.js
+│       │   ├── isNull.js
+│       │   ├── isNumber.js
+│       │   ├── isObject.js
+│       │   ├── isRegExp.js
+│       │   ├── isSet.js
+│       │   ├── isString.js
+│       │   ├── isSymbol.js
+│       │   ├── isTypedArray.js
+│       │   ├── isUndefined.js
+│       │   ├── isWeakMap.js
+│       │   ├── isWeakSet.js
+│       │   ├── iteratee.js
+│       │   ├── keys.js
+│       │   ├── last.js
+│       │   ├── lastIndexOf.js
+│       │   ├── map.js
+│       │   ├── mapObject.js
+│       │   ├── matcher.js
+│       │   ├── max.js
+│       │   ├── memoize.js
+│       │   ├── min.js
+│       │   ├── mixin.js
+│       │   ├── negate.js
+│       │   ├── noop.js
+│       │   ├── now.js
+│       │   ├── object.js
+│       │   ├── omit.js
+│       │   ├── once.js
+│       │   ├── pairs.js
+│       │   ├── partial.js
+│       │   ├── partition.js
+│       │   ├── pick.js
+│       │   ├── pipe.js
+│       │   ├── pluck.js
+│       │   ├── property.js
+│       │   ├── propertyOf.js
+│       │   ├── random.js
+│       │   ├── range.js
+│       │   ├── reduce.js
+│       │   ├── reduceRight.js
+│       │   ├── reject.js
+│       │   ├── rest.js
+│       │   ├── restArguments.js
+│       │   ├── result.js
+│       │   ├── sample.js
+│       │   ├── shuffle.js
+│       │   ├── size.js
+│       │   ├── some.js
+│       │   ├── sortBy.js
+│       │   ├── sortedIndex.js
+│       │   ├── tap.js
+│       │   ├── template.js
+│       │   ├── templateSettings.js
+│       │   ├── throttle.js
+│       │   ├── times.js
+│       │   ├── toArray.js
+│       │   ├── toPath.js
+│       │   ├── underscore-array-methods.js
+│       │   ├── underscore.js
+│       │   ├── unescape.js
+│       │   ├── union.js
+│       │   ├── uniq.js
+│       │   ├── uniqueId.js
+│       │   ├── unzip.js
+│       │   ├── values.js
+│       │   ├── where.js
+│       │   ├── without.js
+│       │   ├── wrap.js
+│       │   └── zip.js
+│       ├── cjs
+│       │   ├── _baseCreate.js
+│       │   ├── _baseIteratee.js
+│       │   ├── _cb.js
+│       │   ├── _chainResult.js
+│       │   ├── _collectNonEnumProps.js
+│       │   ├── _createAssigner.js
+│       │   ├── _createEscaper.js
+│       │   ├── _createIndexFinder.js
+│       │   ├── _createPredicateIndexFinder.js
+│       │   ├── _createReduce.js
+│       │   ├── _createSizePropertyCheck.js
+│       │   ├── _deepGet.js
+│       │   ├── _escapeMap.js
+│       │   ├── _executeBound.js
+│       │   ├── _flatten.js
+│       │   ├── _getByteLength.js
+│       │   ├── _getLength.js
+│       │   ├── _group.js
+│       │   ├── _has.js
+│       │   ├── _hasObjectTag.js
+│       │   ├── _isArrayLike.js
+│       │   ├── _isBufferLike.js
+│       │   ├── _keyInObj.js
+│       │   ├── _methodFingerprint.js
+│       │   ├── _optimizeCb.js
+│       │   ├── _setup.js
+│       │   ├── _shallowProperty.js
+│       │   ├── _stringTagBug.js
+│       │   ├── _tagTester.js
+│       │   ├── _toBufferView.js
+│       │   ├── _toPath.js
+│       │   ├── _unescapeMap.js
+│       │   ├── after.js
+│       │   ├── allKeys.js
+│       │   ├── before.js
+│       │   ├── bind.js
+│       │   ├── bindAll.js
+│       │   ├── chain.js
+│       │   ├── chunk.js
+│       │   ├── clone.js
+│       │   ├── compact.js
+│       │   ├── compose.js
+│       │   ├── constant.js
+│       │   ├── contains.js
+│       │   ├── countBy.js
+│       │   ├── create.js
+│       │   ├── debounce.js
+│       │   ├── defaults.js
+│       │   ├── defer.js
+│       │   ├── delay.js
+│       │   ├── difference.js
+│       │   ├── each.js
+│       │   ├── escape.js
+│       │   ├── every.js
+│       │   ├── extend.js
+│       │   ├── extendOwn.js
+│       │   ├── filter.js
+│       │   ├── find.js
+│       │   ├── findIndex.js
+│       │   ├── findKey.js
+│       │   ├── findLastIndex.js
+│       │   ├── findWhere.js
+│       │   ├── first.js
+│       │   ├── flatten.js
+│       │   ├── functions.js
+│       │   ├── get.js
+│       │   ├── groupBy.js
+│       │   ├── has.js
+│       │   ├── identity.js
+│       │   ├── index-default.js
+│       │   ├── index.js
+│       │   ├── indexBy.js
+│       │   ├── indexOf.js
+│       │   ├── initial.js
+│       │   ├── intersection.js
+│       │   ├── invert.js
+│       │   ├── invoke.js
+│       │   ├── isArguments.js
+│       │   ├── isArray.js
+│       │   ├── isArrayBuffer.js
+│       │   ├── isBoolean.js
+│       │   ├── isDataView.js
+│       │   ├── isDate.js
+│       │   ├── isElement.js
+│       │   ├── isEmpty.js
+│       │   ├── isEqual.js
+│       │   ├── isError.js
+│       │   ├── isFinite.js
+│       │   ├── isFunction.js
+│       │   ├── isMap.js
+│       │   ├── isMatch.js
+│       │   ├── isNaN.js
+│       │   ├── isNull.js
+│       │   ├── isNumber.js
+│       │   ├── isObject.js
+│       │   ├── isRegExp.js
+│       │   ├── isSet.js
+│       │   ├── isString.js
+│       │   ├── isSymbol.js
+│       │   ├── isTypedArray.js
+│       │   ├── isUndefined.js
+│       │   ├── isWeakMap.js
+│       │   ├── isWeakSet.js
+│       │   ├── iteratee.js
+│       │   ├── keys.js
+│       │   ├── last.js
+│       │   ├── lastIndexOf.js
+│       │   ├── map.js
+│       │   ├── mapObject.js
+│       │   ├── matcher.js
+│       │   ├── max.js
+│       │   ├── memoize.js
+│       │   ├── min.js
+│       │   ├── mixin.js
+│       │   ├── negate.js
+│       │   ├── noop.js
+│       │   ├── now.js
+│       │   ├── object.js
+│       │   ├── omit.js
+│       │   ├── once.js
+│       │   ├── pairs.js
+│       │   ├── partial.js
+│       │   ├── partition.js
+│       │   ├── pick.js
+│       │   ├── pipe.js
+│       │   ├── pluck.js
+│       │   ├── property.js
+│       │   ├── propertyOf.js
+│       │   ├── random.js
+│       │   ├── range.js
+│       │   ├── reduce.js
+│       │   ├── reduceRight.js
+│       │   ├── reject.js
+│       │   ├── rest.js
+│       │   ├── restArguments.js
+│       │   ├── result.js
+│       │   ├── sample.js
+│       │   ├── shuffle.js
+│       │   ├── size.js
+│       │   ├── some.js
+│       │   ├── sortBy.js
+│       │   ├── sortedIndex.js
+│       │   ├── tap.js
+│       │   ├── template.js
+│       │   ├── templateSettings.js
+│       │   ├── throttle.js
+│       │   ├── times.js
+│       │   ├── toArray.js
+│       │   ├── toPath.js
+│       │   ├── underscore-array-methods.js
+│       │   ├── underscore.js
+│       │   ├── unescape.js
+│       │   ├── union.js
+│       │   ├── uniq.js
+│       │   ├── uniqueId.js
+│       │   ├── unzip.js
+│       │   ├── values.js
+│       │   ├── where.js
+│       │   ├── without.js
+│       │   ├── wrap.js
+│       │   └── zip.js
+│       ├── modules
+│       │   ├── _baseCreate.js
+│       │   ├── _baseIteratee.js
+│       │   ├── _cb.js
+│       │   ├── _chainResult.js
+│       │   ├── _collectNonEnumProps.js
+│       │   ├── _createAssigner.js
+│       │   ├── _createEscaper.js
+│       │   ├── _createIndexFinder.js
+│       │   ├── _createPredicateIndexFinder.js
+│       │   ├── _createReduce.js
+│       │   ├── _createSizePropertyCheck.js
+│       │   ├── _deepGet.js
+│       │   ├── _escapeMap.js
+│       │   ├── _executeBound.js
+│       │   ├── _flatten.js
+│       │   ├── _getByteLength.js
+│       │   ├── _getLength.js
+│       │   ├── _group.js
+│       │   ├── _has.js
+│       │   ├── _hasObjectTag.js
+│       │   ├── _isArrayLike.js
+│       │   ├── _isBufferLike.js
+│       │   ├── _keyInObj.js
+│       │   ├── _methodFingerprint.js
+│       │   ├── _optimizeCb.js
+│       │   ├── _setup.js
+│       │   ├── _shallowProperty.js
+│       │   ├── _stringTagBug.js
+│       │   ├── _tagTester.js
+│       │   ├── _toBufferView.js
+│       │   ├── _toPath.js
+│       │   ├── _unescapeMap.js
+│       │   ├── after.js
+│       │   ├── allKeys.js
+│       │   ├── before.js
+│       │   ├── bind.js
+│       │   ├── bindAll.js
+│       │   ├── chain.js
+│       │   ├── chunk.js
+│       │   ├── clone.js
+│       │   ├── compact.js
+│       │   ├── compose.js
+│       │   ├── constant.js
+│       │   ├── contains.js
+│       │   ├── countBy.js
+│       │   ├── create.js
+│       │   ├── debounce.js
+│       │   ├── defaults.js
+│       │   ├── defer.js
+│       │   ├── delay.js
+│       │   ├── difference.js
+│       │   ├── each.js
+│       │   ├── escape.js
+│       │   ├── every.js
+│       │   ├── extend.js
+│       │   ├── extendOwn.js
+│       │   ├── filter.js
+│       │   ├── find.js
+│       │   ├── findIndex.js
+│       │   ├── findKey.js
+│       │   ├── findLastIndex.js
+│       │   ├── findWhere.js
+│       │   ├── first.js
+│       │   ├── flatten.js
+│       │   ├── functions.js
+│       │   ├── get.js
+│       │   ├── groupBy.js
+│       │   ├── has.js
+│       │   ├── identity.js
+│       │   ├── index-all.js
+│       │   ├── index-default.js
+│       │   ├── index.js
+│       │   ├── indexBy.js
+│       │   ├── indexOf.js
+│       │   ├── initial.js
+│       │   ├── intersection.js
+│       │   ├── invert.js
+│       │   ├── invoke.js
+│       │   ├── isArguments.js
+│       │   ├── isArray.js
+│       │   ├── isArrayBuffer.js
+│       │   ├── isBoolean.js
+│       │   ├── isDataView.js
+│       │   ├── isDate.js
+│       │   ├── isElement.js
+│       │   ├── isEmpty.js
+│       │   ├── isEqual.js
+│       │   ├── isError.js
+│       │   ├── isFinite.js
+│       │   ├── isFunction.js
+│       │   ├── isMap.js
+│       │   ├── isMatch.js
+│       │   ├── isNaN.js
+│       │   ├── isNull.js
+│       │   ├── isNumber.js
+│       │   ├── isObject.js
+│       │   ├── isRegExp.js
+│       │   ├── isSet.js
+│       │   ├── isString.js
+│       │   ├── isSymbol.js
+│       │   ├── isTypedArray.js
+│       │   ├── isUndefined.js
+│       │   ├── isWeakMap.js
+│       │   ├── isWeakSet.js
+│       │   ├── iteratee.js
+│       │   ├── keys.js
+│       │   ├── last.js
+│       │   ├── lastIndexOf.js
+│       │   ├── map.js
+│       │   ├── mapObject.js
+│       │   ├── matcher.js
+│       │   ├── max.js
+│       │   ├── memoize.js
+│       │   ├── min.js
+│       │   ├── mixin.js
+│       │   ├── negate.js
+│       │   ├── noop.js
+│       │   ├── now.js
+│       │   ├── object.js
+│       │   ├── omit.js
+│       │   ├── once.js
+│       │   ├── package.json
+│       │   ├── pairs.js
+│       │   ├── partial.js
+│       │   ├── partition.js
+│       │   ├── pick.js
+│       │   ├── pluck.js
+│       │   ├── property.js
+│       │   ├── propertyOf.js
+│       │   ├── random.js
+│       │   ├── range.js
+│       │   ├── reduce.js
+│       │   ├── reduceRight.js
+│       │   ├── reject.js
+│       │   ├── rest.js
+│       │   ├── restArguments.js
+│       │   ├── result.js
+│       │   ├── sample.js
+│       │   ├── shuffle.js
+│       │   ├── size.js
+│       │   ├── some.js
+│       │   ├── sortBy.js
+│       │   ├── sortedIndex.js
+│       │   ├── tap.js
+│       │   ├── template.js
+│       │   ├── templateSettings.js
+│       │   ├── throttle.js
+│       │   ├── times.js
+│       │   ├── toArray.js
+│       │   ├── toPath.js
+│       │   ├── underscore-array-methods.js
+│       │   ├── underscore.js
+│       │   ├── unescape.js
+│       │   ├── union.js
+│       │   ├── uniq.js
+│       │   ├── uniqueId.js
+│       │   ├── unzip.js
+│       │   ├── values.js
+│       │   ├── where.js
+│       │   ├── without.js
+│       │   ├── wrap.js
+│       │   └── zip.js
+│       ├── package.json
+│       ├── underscore-esm-min.js
+│       ├── underscore-esm-min.js.map
+│       ├── underscore-esm.js
+│       ├── underscore-esm.js.map
+│       ├── underscore-min.js
+│       ├── underscore-min.js.map
+│       ├── underscore-node-f.cjs
+│       ├── underscore-node-f.cjs.map
+│       ├── underscore-node.cjs
+│       ├── underscore-node.cjs.map
+│       ├── underscore-node.mjs
+│       ├── underscore-node.mjs.map
+│       ├── underscore-umd-min.js
+│       ├── underscore-umd-min.js.map
+│       ├── underscore-umd.js
+│       ├── underscore-umd.js.map
+│       └── underscore.js
+├── package-lock.json
+├── package.json
+└── text.txt
+
+180 directories, 953 files

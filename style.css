@@ -1,0 +1,236 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.main-content {
+  width: 100%;
+}
+
+#gjs .gjs-cv-canvas {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+#gjs .gjs-pn-panel,
+#gjs .gjs-pn-views,
+#gjs .gjs-pn-options,
+#gjs .gjs-pn-commands {
+  display: none !important;
+}
+
+.panel__top {
+  height: 50px;
+  display: flex;
+  background: #1e1e2f;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.panel__basic-actions {
+  order: 1;
+  display: flex;
+  gap: 8px;
+  position: relative;
+}
+
+.panel__devices {
+  order: 2;
+  display: flex;
+  gap: 8px;
+}
+
+.export-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: #252536;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 8px 0;
+  min-width: 120px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+
+.export-menu button {
+  width: 100%;
+  text-align: left; 
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.export-menu button:hover {
+  background: #333;
+}
+
+.main-content {
+  display: flex;
+  height: calc(100vh - 50px);
+  align-items: stretch;
+}
+
+.panel__left {
+  flex: 0 0 260px;
+  min-width: 260px;
+  background: #252536;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel__device-holder {
+  padding: 10px;
+  background: #1f1f33;
+  border-bottom: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.panel__blocks-holder {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+#gjs {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: #3a3a4f;
+}
+
+.panel__right {
+  flex: 0 0 300px;
+  min-width: 300px;
+  background: #252536;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+/* Page Manager Styles */
+.page-manager-panel {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-height: 38%;
+  overflow-y: auto;
+}
+
+.page-manager-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.page-selector {
+  flex: 1;
+  min-width: 100px;
+  background: #1e1e2f;
+  color: white;
+  border: 1px solid #3c3c5c;
+  padding: 4px;
+}
+
+.page-btn {
+  padding: 4px 8px;
+  background: #00d8ff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.page-btn:disabled { background: #555; }
+
+.page-previews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.page-preview-item {
+  background: #2f2f44;
+  border: 1px solid transparent;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  text-align: left;
+}
+
+.page-preview-item.active { border-color: #00d8ff; }
+
+.page-preview-thumbnail {
+  height: 40px;
+  background: #1b1b2e;
+  margin-bottom: 4px;
+}
+
+.page-preview-name { font-size: 10px; white-space: nowrap; overflow: hidden; }
+
+/* Tabs */
+.sidebar-tabs { display: flex; background: #1e1e2f; }
+.tab { flex: 1; padding: 10px; text-align: center; cursor: pointer; color: #aaa; font-size: 12px; }
+.tab.active { color: white; border-bottom: 2px solid #00d8ff; }
+
+.manager-container { flex-grow: 1; overflow-y: auto; padding: 10px; }
+.hidden { display: none; }
+
+/* Extra Components Styles */
+.tabs-container .tab-btn:hover {
+  background: #bbb !important;
+}
+
+.tabs-container .tab-btn.active {
+  background: #00d8ff !important;
+  color: white !important;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+[data-tooltip]:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+#typed-cursor {
+  animation: blink 1s infinite;
+}
